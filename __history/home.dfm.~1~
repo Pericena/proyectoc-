@@ -1,0 +1,45 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Home'
+  ClientHeight = 379
+  ClientWidth = 663
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 576
+    Top = 65528
+    object Inicio1: TMenuItem
+      Caption = 'Home'
+    end
+    object Usuario1: TMenuItem
+      Caption = 'Login'
+      object Administrador: TMenuItem
+        Caption = 'Administrador'
+      end
+      object Medico: TMenuItem
+        Caption = 'Medico'
+      end
+      object Paciente: TMenuItem
+        Caption = 'Paciente'
+      end
+    end
+    object Register1: TMenuItem
+      Caption = 'Register'
+    end
+    object Help1: TMenuItem
+      Caption = 'Help'
+    end
+    object Salir1: TMenuItem
+      Caption = 'Exit'
+    end
+  end
+end
